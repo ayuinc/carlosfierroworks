@@ -6,7 +6,7 @@
   Author: @MadeByGus - G. Andres Ibarra yo@soygus.com
   Desde la consola navega hasta el directorio "stylesheets" y ejecuta: 
 
-  sass --watch main.scss:main.css 
+  sass --watch main.scss:main.css -t compressed
 
 */
 
@@ -56,7 +56,7 @@ $b3-enabled: true;
 // Animations
 // http://daneden.github.io/animate.css/
 
-@import "animate/animate-init";
+// @import "animate/animate-init";
 
 
 /*========================================

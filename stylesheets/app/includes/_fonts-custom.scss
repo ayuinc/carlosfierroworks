@@ -1,5 +1,20 @@
 /* PROJECT ESPECIFIC FONTS */
 
+// LINTEL
+@mixin lintel-italic { font-family: Lintel-italic !important; font-weight: normal; font-style: normal;}
+.lintel-italic {@include lintel-italic;}
+@mixin lintel-regular { font-family: Lintel-regular !important; font-weight: normal; font-style: normal;}
+.lintel-regular {@include lintel-regular;}
+@mixin lintel-bold { font-family: Lintel-bold !important; font-weight: normal; font-style: normal;}
+.lintel-bold {@include lintel-bold;}
+
+@mixin interstate { font-family: Interstate !important; font-weight: normal; font-style: normal;}
+.interstate {@include interstate;}
+@mixin interstate-black { font-family: "Interstate Black" !important; font-weight: normal; font-style: normal;}
+.interstate-black {@include interstate-black;}
+@mixin interstate-light { font-family: "Interstate Light" !important; font-weight: normal; font-style: normal;}
+.interstate-light {@include interstate-light;}
+
 // SANS-SERIFS
 // @mixin thin { font-family: $font-family-base !important; font-weight: 100; font-style: normal;}
 // .thin {@include thin;}

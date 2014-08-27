@@ -10,7 +10,11 @@ html {
 }
 
 // MAIN TEXT
-
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 // TEXT IN REMS
 h1, .h1 { font-size: rem($font-size-h1); }
