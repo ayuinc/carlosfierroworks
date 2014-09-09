@@ -1,8 +1,8 @@
 .projects-grid {
 	li {
 		float: left;
-		padding: 3px;
-		padding: rem(3);
+		padding: 1px;
+		padding: rem(1);
 		width: 24.95%;
 		a {
 			display: block;
@@ -27,28 +27,36 @@
 				right: 0;
 				bottom: 0;
 				left: 0;
-				padding: 7px;
-				padding: rem(7);
+				padding: 24px 7px 7px 7px;
+				padding: rem(24) rem(7) rem(7) rem(7);
 				background: rgba($gray-lighter, 0.9);
 				h4 {
-					margin-bottom: 12px;
-					margin-bottom: rem(12);
 					@include interstate-black;
+					font-size: 18px;
+					letter-spacing: 0.11em;
+					text-transform: uppercase;
+				}
+				div {
+					margin: 21px 0;
+					margin: rem(21) 0;
 				}
 				span,
 				small {
 					display: block;
+					line-height: 11px;
+					line-height: rem(11);
 				}
 				span.name {
 					@include interstate;
+					font-size: 11px;
 				}
 				span.year {
 					@include interstate-light;
-					margin-bottom: 3px;
-					margin-bottom: rem(3);
+					font-size: 11px;
 				}
 				small.location {
 					@include interstate-light;
+					font-size: 10px;
 				}
 			}
 		}
@@ -185,7 +193,7 @@
 			a {
 				background: $brand-espacios;
 				&:hover {
-					background: darken($brand-espacios, 14%);
+					background: lighten($brand-espacios, 14%);
 				}
 			}
 		}
@@ -193,7 +201,7 @@
 			a {
 				background: $brand-objetos;
 				&:hover {
-					background: darken($brand-objetos, 14%);
+					background: lighten($brand-objetos, 14%);
 				}
 			}
 		}
@@ -201,9 +209,30 @@
 			a {
 				background: $brand-sistemas;
 				&:hover {
-					background: darken($brand-sistemas, 14%);
+					background: lighten($brand-sistemas, 14%);
 				}
 			}
 		}
+	}
+}
+
+.project-info {
+	position: absolute;
+	left: -56px;
+	bottom: -4px;
+	text-align: right;
+	.project-name,
+	.project-info {
+		font-size: 11px;
+		line-height: 0.7;
+		display: block;
+	}
+	.project-name {
+		@include interstate;
+	}
+	.project-year {
+		@include interstate-light;
+		font-size: 11px;
+		color: $gray;
 	}
 }

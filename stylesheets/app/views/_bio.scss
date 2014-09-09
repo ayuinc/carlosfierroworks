@@ -1,0 +1,43 @@
+#bio {
+	padding-top: 46px;
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5,
+	h6, .h6,
+	p, .p, ul, ol,
+	ul ul, ol ol {
+		@include interstate-light;
+		text-align: justify;
+		margin-bottom: 17px;
+		margin-bottom: rem(17);
+		line-height: 1.6;
+	}	
+	p, .p, ul { 
+		font-size: 12px;
+		font-size: rem(12);		
+	}
+	img {
+		margin-bottom: 17px;	
+		margin-bottom: rem(17);
+	}
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5,
+	h6, .h6 {
+		text-transform: uppercase;
+		color: $gray-darker;
+		@include interstate;
+	}
+	ul, ol,
+	ul ul, ol ol {
+		padding-left: 14px;
+		list-style-type: circle;
+	}
+	a {
+		text-decoration: underline;
+	}
+}
