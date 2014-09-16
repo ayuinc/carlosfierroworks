@@ -5817,10 +5817,10 @@ html[xmlns] .slides {
   font-size: 40px;
   line-height: 1;
   display: inline-block;
-  content: '<'; }
+  content: url(../assets/icons/slider-left.png); }
 
 .flex-direction-nav a.flex-next:before {
-  content: '>'; }
+  content: url(../assets/icons/slider-right.png); }
 
 /* Pause/Play */
 .flex-pauseplay a {
@@ -6106,6 +6106,62 @@ html[xmlns] .slides {
     font-style: normal;
     font-size: 11px;
     color: #898b8e; }
+
+.project-description-trigger {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: block;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: url(../assets/icons/slider-toggle-off.png) no-repeat center center; }
+  .project-description-trigger.on {
+    background: url(../assets/icons/slider-toggle-on.png) no-repeat center center; }
+
+.project-description {
+  position: absolute;
+  width: 240px;
+  height: 490px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  left: 28px;
+  bottom: 0;
+  overflow: hidden;
+  display: none; }
+  .project-description .scroll-up,
+  .project-description .scroll-down {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0; }
+  .project-description .scroll-up {
+    background: url(../assets/icons/slider-content-up.png) no-repeat center center;
+    right: 20px; }
+  .project-description .scroll-down {
+    background: url(../assets/icons/slider-content-down.png) no-repeat center center;
+    right: 0; }
+  .project-description .content {
+    min-height: 630px;
+    position: absolute;
+    padding: 21px; }
+    .project-description .content p {
+      font-size: 11px;
+      font-family: "Interstate Light" !important;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 135%;
+      margin-bottom: 17px; }
+    .project-description .content h5 {
+      font-family: Interstate !important;
+      font-weight: normal;
+      font-style: normal;
+      margin-bottom: 5px;
+      font-size: 12px;
+      color: #313233;
+      text-transform: capitalize; }
+  .project-description.on {
+    display: block; }
 
 #bio {
   padding-top: 46px; }

@@ -145,10 +145,10 @@ html[xmlns] .slides {
   font-size: 40px;
   line-height: 1;
   display: inline-block;
-  content: '<'; }
+  content: url(../assets/icons/slider-left.png); }
 
 .flex-direction-nav a.flex-next:before {
-  content: '>'; }
+  content: url(../assets/icons/slider-right.png); }
 
 /* Pause/Play */
 .flex-pauseplay a {

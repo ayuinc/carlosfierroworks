@@ -123,6 +123,48 @@ $(document).ready(function(){
 	    sync: "#carousel"
 	  });
 	});
+
+	// PROJECTS DESCRIPTION
+	$('.project-description-trigger').click(function(e){
+		e.preventDefault();
+		$(this).toggleClass('on');
+		$('.project-description').toggleClass('on');
+	});
+
+	$('.project-description .scroll-down').click(function(e){
+		e.preventDefault();
+		$('.project-description .content').velocity({
+			top: '-80%'
+		}, {
+			duration: 400,
+	    easing: "swing",
+	    queue: "",
+	    begin: null,
+	    progress: null,
+	    complete: null,
+	    loop: false,
+	    delay: false,
+	    display: false,
+	    mobileHA: true
+		});
+	});
+	$('.project-description .scroll-up').click(function(e){
+		e.preventDefault();
+		$('.project-description .content').velocity({
+			top: '0'
+		}, {
+			duration: 400,
+	    easing: "swing",
+	    queue: "",
+	    begin: null,
+	    progress: null,
+	    complete: null,
+	    loop: false,
+	    delay: false,
+	    display: false,
+	    mobileHA: true
+		});
+	});
 });
 
 

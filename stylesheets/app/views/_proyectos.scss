@@ -236,3 +236,80 @@
 		color: $gray;
 	}
 }
+
+.project-description-trigger {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	display: block;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background: url(../assets/icons/slider-toggle-off.png) no-repeat center center;
+	&.on {
+		background: url(../assets/icons/slider-toggle-on.png) no-repeat center center;
+	}
+}
+
+.project-description {
+	position: absolute;
+	width: 240px;	
+	height: 490px;
+	background: rgba(white, 0.9);
+	z-index: 1000;
+	left: 28px;
+	bottom: 0;
+	overflow: hidden;
+	display: none;
+	.scroll-up,
+	.scroll-down {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		bottom: 0;
+	}
+	.scroll-up {
+		background: url(../assets/icons/slider-content-up.png) no-repeat center center;
+		right: 20px;
+	}
+	.scroll-down {
+		background: url(../assets/icons/slider-content-down.png) no-repeat center center;
+		right: 0;
+	}
+	.content {
+		min-height: 630px;
+		position: absolute;
+		padding: 21px;
+		p {
+			font-size: 11px;
+			@include interstate-light;
+			line-height: 135%;
+			margin-bottom: 17px;
+		}
+		h5 {
+			@include interstate;
+			margin-bottom: 5px;
+			font-size: 12px;
+			color: $gray-darker;
+			text-transform: capitalize;
+		} 
+	}
+	&.on {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
