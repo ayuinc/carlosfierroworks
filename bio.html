@@ -52,11 +52,11 @@
     <link rel="apple-touch-icon" href="">
 
     <!-- WebFonts -->
-    <script type="text/javascript" src="../js/app/vendor/lintel-font.js"></script>
+    <script type="text/javascript" src="js/app/vendor/lintel-font.js"></script>
     <link async href="//cloud.webtype.com/css/d883e44d-f980-46cb-8446-8467fdcf96f4.css" rel="stylesheet" type="text/css" />
 
     <!-- APP STYLES -->
-    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
   </head>
   <body>
     <div class="container-fluid">
@@ -64,52 +64,34 @@
         <div class="col-sm-2">
           <ul class="list-unstyled nav-main-menu">
             <li class="carlos-fierro">Carlos Fierro</li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Biografía</a></li>
-            <li><a href="#" class="active">Prensa</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-          <ul class="list-unstyled nav-press-grid-filters">
-            <li><a href="#" class="* active" data-filter="*">Todos</a></li>
-            <li><a href="#" class="espacios" data-filter=".espacios">Espacios</a></li>
-            <li><a href="#" class="objetos" data-filter=".objetos">Objetos</a></li>
-            <li><a href="#" class="sistemas" data-filter=".sistemas">Sistemas</a></li>
-          </ul>
-          <ul class="list-unstyled nav-press-items-mini-grid">
+            <li><a href="index.html">Proyectos</a></li>
+            <li><a href="bio.html" class="active">Biografía</a></li>
+            <li><a href="prensa.html">Prensa</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div class="col-sm-7" id="prensa">
-          <ul class="list-unstyled press-grid isotope-container">
-            <li class="isotope-item sistemas" data-minigrid="sistemas">
-              <a href="#">
-                <img src="../assets/img/press-thumb.jpg">
-                <div class="overlay"></div>
-              </a>
-            </li>
-            <li class="isotope-item espacios" data-minigrid="espacios">
-              <a href="#">
-                <img src="../assets/img/press-thumb.jpg">
-                <div class="overlay"></div>
-              </a>
-            </li>
-            <li class="isotope-item objetos" data-minigrid="objetos">
-              <a href="#">
-                <img src="../assets/img/press-thumb.jpg">
-                <div class="overlay"></div>
-              </a>
-            </li>
-            <li class="isotope-item sistemas" data-minigrid="sistemas">
-              <a href="#">
-                <img src="../assets/img/press-thumb.jpg">
-                <div class="overlay"></div>
-              </a>
-            </li>
-          </ul>
+        <div class="col-sm-7">
+          <div class="row" id="bio">
+            <div class="col-sm-5">
+              <p>Morbi sed lacus placerat diam scelerisque rutrum. Ut sit amet tellus mauris, sit amet ultrices nibh. In pulvinar ante vel sapien dignissim ac bibendum purus bibendum. Pellentesque sit amet ipsum mes. Aenean arcu mauris, gravida a suscipit vitae, lacinia ut lacus. Donec sit amet nibh ac lacus imperdiet adipiscing.</p>
+              <p>Phasellus sed turpis vitae neque dictum mollis quis sit amet lectus. Praesent vel purus et risus euismod consectetur. Pellentesque sollicitudin euismod felis quis semper. Sed ac turpis eu augue gravida ornare ac eu nunc. Proin in mauris neque, ac iaculi torto.. Aenean arcu mauris, gravida a suscipit vitae, lacinia ut lacus.</p>
+              <p>Donec sit amet nibh ac lacus imperdiet adipiscing. Phasellus sed turpis vitae neque dictum mollis quis sit amet lectus. Praesent vel purus et risus euismod consectetur. Pellentesque sollicitudin euismod felis quis semper. Sed ac turpis eu augue gravida ornare ac eu nunc. Proin in mauris neque, ac iaculi</p>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+              <img src="assets/img/bio-thumb.jpg" class="img-responsive" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor, neque interdum viverra ultrices, neque tortor mattis risus, vel aliquam lectus elit vel quam. Nunc tempus condimentum mi. Praesent quam ante, volutpat sit amet consectetur vel, tempor nec magna.</p>
+              <h5>Awards</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor, neque interdum viverra ultrices, neque tortor mattis risus, vel aliquam lectus elit vel quam. Nunc tempus condimentum mi.</p>
+              <ul>
+                <li><a href="#">Premio</a></li>
+                <li>Premio</li>
+                <li>Premio</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script src="../js/app/vendor/jquery-2.1.1.min.js"></script>
-    <script src="../js/app/vendor/isotope.pkgd.min.js"></script>
-    <script src="../js/app/main.js"></script>
   </body>
 </html>
