@@ -70,8 +70,8 @@ $(document).ready(function(){
 
 		if ($gridIndex === $minigridIndex) {
 			$projectItem.addClass("highlighted");
-			$projectsGrid.addClass("on-highlight");
-			$projectItem.removeClass("on-highlight");
+			// $projectsGrid.addClass("on-highlight");
+			// $projectItem.removeClass("on-highlight");
 		}
 	});
 

@@ -10,7 +10,9 @@
 			&:hover {
 				.overlay {
 					color: $gray-dark;
-					display: block;
+					// display: block;
+					opacity: 1;
+					@include transition(opacity 0.3s ease-in-out);
 				}
 			}
 			img {
@@ -19,7 +21,7 @@
 			}
 			.overlay {
 				color: $gray-dark;
-				display: none;
+				// display: none;
 				position: absolute;
 				width: 100%;
 				height: 100%;
@@ -27,9 +29,11 @@
 				right: 0;
 				bottom: 0;
 				left: 0;
-				padding: 24px 7px 7px 7px;
-				padding: rem(24) rem(7) rem(7) rem(7);
+				padding: 24px 7px 7px 24px;
+				padding: rem(24) rem(7) rem(7) rem(24);
 				background: rgba($gray-lighter, 0.9);
+				opacity: 0;
+				@include transition(opacity 0.3s ease-in-out);
 				h4 {
 					@include interstate-black;
 					font-size: 18px;
@@ -93,7 +97,8 @@
 		&.highlighted {
 			a {				
 				.overlay {
-					display: block;
+					// display: block;
+					opacity: 1;
 				}
 			}
 		}
@@ -178,21 +183,24 @@
 	margin-top: 35px;
 	margin-top: rem(35);
 	float: right;
+	padding-right: 11px;
 	@include clearfix;
 	li {
 		float: left;
 		width: 24.95%;
-		padding: 2px;
+		padding: 1px;
 		a {
 			display: block;
 			height: 18px;
 			background: $brand-espacios;
 			margin: 0;
+			@include box-shadow(inset 0px 0px 7px 0px white);
 		}
 		&.espacios {
 			a {
 				background: $brand-espacios;
-				&:hover {
+				&:hover,
+				&.active {
 					background: lighten($brand-espacios, 14%);
 				}
 			}
@@ -200,7 +208,8 @@
 		&.objetos {
 			a {
 				background: $brand-objetos;
-				&:hover {
+				&:hover,
+				&.active {
 					background: lighten($brand-objetos, 14%);
 				}
 			}
@@ -208,7 +217,8 @@
 		&.sistemas {
 			a {
 				background: $brand-sistemas;
-				&:hover {
+				&:hover,
+				&.active {
 					background: lighten($brand-sistemas, 14%);
 				}
 			}
@@ -245,9 +255,9 @@
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
-	background: url(assets/icons/slider-toggle-off.png) no-repeat center center;
+	background: url(../assets/icons/slider-toggle-off.png) no-repeat center center;
 	&.on {
-		background: url(assets/icons/slider-toggle-on.png) no-repeat center center;
+		background: url(../assets/icons/slider-toggle-on.png) no-repeat center center;
 	}
 }
 
@@ -269,11 +279,11 @@
 		bottom: 0;
 	}
 	.scroll-up {
-		background: url(assets/icons/slider-content-up.png) no-repeat center center;
+		background: url(../assets/icons/slider-content-up.png) no-repeat center center;
 		right: 20px;
 	}
 	.scroll-down {
-		background: url(assets/icons/slider-content-down.png) no-repeat center center;
+		background: url(../assets/icons/slider-content-down.png) no-repeat center center;
 		right: 0;
 	}
 	.content {

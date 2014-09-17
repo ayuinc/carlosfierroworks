@@ -70,13 +70,27 @@ $(document).ready(function(){
 
 		if ($gridIndex === $minigridIndex) {
 			$projectItem.addClass("highlighted");
-			$projectsGrid.addClass("on-highlight");
 			$projectItem.removeClass("on-highlight");
 		}
 	});
 
 	$($projectMiniGridItem).on("mouseleave", function(){
 		$projectsGrid.removeClass("on-highlight").removeClass("highlighted");
+	});
+
+	// THE SAME BUT FOR PROJECTS GRID
+	$($projectsGrid).on("mouseover", function(){
+		var $gridIndex = $(this).index(),
+				$miniGridIndex = $($projectMiniGridItem[$gridIndex]).index(),
+				$projectItem = $($projectMiniGridItem[$gridIndex]);
+
+		if ($miniGridIndex === $gridIndex) {
+			$projectItem.find('a').addClass("active");			
+		}
+	});
+
+	$($projectsGrid).on("mouseleave", function(){
+		$projectMiniGridItem.find('a').removeClass("active");
 	});
 
 	// NAV PRESS ITEMS MINIGRID HOVER HIGHLIGHT
@@ -93,14 +107,28 @@ $(document).ready(function(){
 				$pressItem = $($pressGrid[$minigridIndex]);
 
 		if ($gridIndex === $minigridIndex) {
-			$pressItem.addClass("highlighted");
-			$pressGrid.addClass("on-highlight");
+			$pressItem.addClass("highlighted");			
 			$pressItem.removeClass("on-highlight");
 		}
 	});
 
 	$($pressMiniGridItem).on("mouseleave", function(){
 		$pressGrid.removeClass("on-highlight").removeClass("highlighted");
+	});
+
+	// THE SAME BUT FOR PRESS GRID
+	$($pressGrid).on("mouseover", function(){
+		var $gridIndex = $(this).index(),
+				$miniGridIndex = $($pressMiniGridItem[$gridIndex]).index(),
+				$pressItem = $($pressMiniGridItem[$gridIndex]);
+
+		if ($miniGridIndex === $gridIndex) {
+			$pressItem.find('a').addClass("active");			
+		}
+	});
+
+	$($pressGrid).on("mouseleave", function(){
+		$pressMiniGridItem.find('a').removeClass("active");
 	});
 
 	// PROJECTS FLEXSLIDER
