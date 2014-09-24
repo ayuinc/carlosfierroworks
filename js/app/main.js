@@ -152,6 +152,13 @@ $(document).ready(function(){
 	    slideshow: false,
 	    sync: "#carousel"
 	  });
+
+	  // PROJECT THUMBS COUNTER
+		var $carouselSlider = $('#carousel .slides li');
+		var $listItems = '';
+		for (var i = 0; i < $carouselSlider.length; i++) {
+			$('.thumbnail-counter').append('<li>' + (i+1) + '</li>');
+		}
 	});
 
 	// PROJECTS DESCRIPTION
