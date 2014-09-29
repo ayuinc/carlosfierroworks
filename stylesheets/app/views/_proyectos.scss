@@ -70,29 +70,29 @@
 				}
 			}
 		}
-		&.sistemas {
+		&.systems {
 			a {
 				.overlay {
 					h4 {
-						color: $brand-sistemas;
+						color: $brand-systems;
 					}
 				}
 			}
 		}
-		&.espacios {
+		&.spaces {
 			a {
 				.overlay {
 					h4 {
-						color: $brand-espacios;
+						color: $brand-spaces;
 					}
 				}
 			}
 		}
-		&.objetos {
+		&.objects {
 			a {
 				.overlay {
 					h4 {
-						color: $brand-objetos;
+						color: $brand-objects;
 					}
 				}
 			}
@@ -141,9 +141,9 @@
 					float: right;
 				}
 			}
-			&.espacios,
-			&.objetos,
-			&.sistemas {
+			&.spaces,
+			&.objects,
+			&.systems {
 				&:after {
 					content: " ";
 					width: 7px;
@@ -153,32 +153,32 @@
 					float: right;
 				}
 			}
-			&.espacios {
+			&.spaces {
 				&:hover,
 				&.active {
 					&:after {
-						background: $brand-espacios;
+						background: $brand-spaces;
 					}
 				}
-				color: $brand-espacios;
+				color: $brand-spaces;
 			}
-			&.objetos {
+			&.objects {
 				&:hover,
 				&.active {
 					&:after {
-						background: $brand-objetos;
+						background: $brand-objects;
 					}
 				}
-				color: $brand-objetos;
+				color: $brand-objects;
 			}
-			&.sistemas {
+			&.systems {
 				&:hover,
 				&.active {
 					&:after {
-						background: $brand-sistemas;
+						background: $brand-systems;
 					}
 				}
-				color: $brand-sistemas;
+				color: $brand-systems;
 			}
 		}
 	}
@@ -198,34 +198,34 @@
 		a {
 			display: block;
 			height: 18px;
-			background: $brand-espacios;
+			background: $brand-spaces;
 			margin: 0;
 			@include box-shadow(inset 0px 0px 7px 0px white);
 		}
-		&.espacios {
+		&.spaces {
 			a {
-				background: $brand-espacios;
+				background: $brand-spaces;
 				&:hover,
 				&.active {
-					background: lighten($brand-espacios, 14%);
+					background: lighten($brand-spaces, 14%);
 				}
 			}
 		}
-		&.objetos {
+		&.objects {
 			a {
-				background: $brand-objetos;
+				background: $brand-objects;
 				&:hover,
 				&.active {
-					background: lighten($brand-objetos, 14%);
+					background: lighten($brand-objects, 14%);
 				}
 			}
 		}
-		&.sistemas {
+		&.systems {
 			a {
-				background: $brand-sistemas;
+				background: $brand-systems;
 				&:hover,
 				&.active {
-					background: lighten($brand-sistemas, 14%);
+					background: lighten($brand-systems, 14%);
 				}
 			}
 		}
@@ -233,9 +233,7 @@
 }
 
 .project-info {
-	position: absolute;
-	left: -56px;
-	bottom: -4px;
+	margin-top: -120px;
 	text-align: right;
 	.project-name,
 	.project-info {
@@ -332,14 +330,28 @@
 	}
 }
 
+.numbers {
+	@include interstate-light;
+	font-size: 9px;
+}
 
+#carousel2 {
+	margin-top: -23px;
+	height: 16px;
+	padding-top: 1px;
+	background-color: rgba($gray-darker,0.7);
+}
 
+#uno {
+	margin-left: 35px;
+}
 
-
-
-
-
-
+.loading {
+  background: url(../images/31.gif) no-repeat center;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+}
 
 
 

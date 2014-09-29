@@ -6013,11 +6013,11 @@ html[xmlns] .slides {
         font-weight: normal;
         font-style: normal;
         font-size: 10px; }
-  .projects-grid li.sistemas a .overlay h4 {
+  .projects-grid li.systems a .overlay h4 {
     color: #3db9ea; }
-  .projects-grid li.espacios a .overlay h4 {
+  .projects-grid li.spaces a .overlay h4 {
     color: #d4de3e; }
-  .projects-grid li.objetos a .overlay h4 {
+  .projects-grid li.objects a .overlay h4 {
     color: #fcb748; }
   .projects-grid li.on-highlight {
     opacity: 0.3; }
@@ -6050,24 +6050,24 @@ html[xmlns] .slides {
       margin: 7px 0 0 7px;
       display: block;
       float: right; }
-    .nav-project-grid-filters li a.espacios:after, .nav-project-grid-filters li a.objetos:after, .nav-project-grid-filters li a.sistemas:after {
+    .nav-project-grid-filters li a.spaces:after, .nav-project-grid-filters li a.objects:after, .nav-project-grid-filters li a.systems:after {
       content: " ";
       width: 7px;
       height: 7px;
       margin: 7px 0 0 7px;
       display: block;
       float: right; }
-    .nav-project-grid-filters li a.espacios {
+    .nav-project-grid-filters li a.spaces {
       color: #d4de3e; }
-      .nav-project-grid-filters li a.espacios:hover:after, .nav-project-grid-filters li a.espacios.active:after {
+      .nav-project-grid-filters li a.spaces:hover:after, .nav-project-grid-filters li a.spaces.active:after {
         background: #d4de3e; }
-    .nav-project-grid-filters li a.objetos {
+    .nav-project-grid-filters li a.objects {
       color: #fcb748; }
-      .nav-project-grid-filters li a.objetos:hover:after, .nav-project-grid-filters li a.objetos.active:after {
+      .nav-project-grid-filters li a.objects:hover:after, .nav-project-grid-filters li a.objects.active:after {
         background: #fcb748; }
-    .nav-project-grid-filters li a.sistemas {
+    .nav-project-grid-filters li a.systems {
       color: #3db9ea; }
-      .nav-project-grid-filters li a.sistemas:hover:after, .nav-project-grid-filters li a.sistemas.active:after {
+      .nav-project-grid-filters li a.systems:hover:after, .nav-project-grid-filters li a.systems.active:after {
         background: #3db9ea; }
 
 .nav-project-items-mini-grid {
@@ -6092,23 +6092,21 @@ html[xmlns] .slides {
       -webkit-box-shadow: inset 0px 0px 7px 0px white;
       -moz-box-shadow: inset 0px 0px 7px 0px white;
       box-shadow: inset 0px 0px 7px 0px white; }
-    .nav-project-items-mini-grid li.espacios a {
+    .nav-project-items-mini-grid li.spaces a {
       background: #d4de3e; }
-      .nav-project-items-mini-grid li.espacios a:hover, .nav-project-items-mini-grid li.espacios a.active {
+      .nav-project-items-mini-grid li.spaces a:hover, .nav-project-items-mini-grid li.spaces a.active {
         background: #e2e87b; }
-    .nav-project-items-mini-grid li.objetos a {
+    .nav-project-items-mini-grid li.objects a {
       background: #fcb748; }
-      .nav-project-items-mini-grid li.objetos a:hover, .nav-project-items-mini-grid li.objetos a.active {
+      .nav-project-items-mini-grid li.objects a:hover, .nav-project-items-mini-grid li.objects a.active {
         background: #fdd38e; }
-    .nav-project-items-mini-grid li.sistemas a {
+    .nav-project-items-mini-grid li.systems a {
       background: #3db9ea; }
-      .nav-project-items-mini-grid li.sistemas a:hover, .nav-project-items-mini-grid li.sistemas a.active {
+      .nav-project-items-mini-grid li.systems a:hover, .nav-project-items-mini-grid li.systems a.active {
         background: #7dd0f1; }
 
 .project-info {
-  position: absolute;
-  left: -56px;
-  bottom: -4px;
+  margin-top: -120px;
   text-align: right; }
   .project-info .project-name,
   .project-info .project-info {
@@ -6198,6 +6196,27 @@ html[xmlns] .slides {
     font-weight: normal;
     font-style: normal;
     padding: 2px 5px; }
+
+.numbers {
+  font-family: "Interstate Light" !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 9px; }
+
+#carousel2 {
+  margin-top: -23px;
+  height: 16px;
+  padding-top: 1px;
+  background-color: rgba(49, 50, 51, 0.7); }
+
+#uno {
+  margin-left: 35px; }
+
+.loading {
+  background: url(../images/31.gif) no-repeat center;
+  background-color: white;
+  height: 500px;
+  width: 100%; }
 
 #bio {
   padding-top: 46px; }
@@ -6306,11 +6325,11 @@ html[xmlns] .slides {
         font-weight: normal;
         font-style: normal;
         font-size: 10px; }
-  .press-grid li.sistemas a .overlay h4 {
+  .press-grid li.systems a .overlay h4 {
     color: #3db9ea; }
-  .press-grid li.espacios a .overlay h4 {
+  .press-grid li.spaces a .overlay h4 {
     color: #d4de3e; }
-  .press-grid li.objetos a .overlay h4 {
+  .press-grid li.objects a .overlay h4 {
     color: #fcb748; }
   .press-grid li.on-highlight {
     opacity: 0.3; }
@@ -6343,30 +6362,30 @@ html[xmlns] .slides {
       margin: 7px 0 0 7px;
       display: block;
       float: right; }
-    .nav-press-grid-filters li a.espacios:after, .nav-press-grid-filters li a.objetos:after, .nav-press-grid-filters li a.sistemas:after {
+    .nav-press-grid-filters li a.spaces:after, .nav-press-grid-filters li a.objects:after, .nav-press-grid-filters li a.systems:after {
       content: " ";
       width: 7px;
       height: 7px;
       margin: 7px 0 0 7px;
       display: block;
       float: right; }
-    .nav-press-grid-filters li a.espacios {
+    .nav-press-grid-filters li a.spaces {
       color: #d4de3e; }
-      .nav-press-grid-filters li a.espacios:hover:after, .nav-press-grid-filters li a.espacios.active:after {
+      .nav-press-grid-filters li a.spaces:hover:after, .nav-press-grid-filters li a.spaces.active:after {
         background: #d4de3e; }
-    .nav-press-grid-filters li a.objetos {
+    .nav-press-grid-filters li a.objects {
       color: #fcb748; }
-      .nav-press-grid-filters li a.objetos:hover:after, .nav-press-grid-filters li a.objetos.active:after {
+      .nav-press-grid-filters li a.objects:hover:after, .nav-press-grid-filters li a.objects.active:after {
         background: #fcb748; }
-    .nav-press-grid-filters li a.sistemas {
+    .nav-press-grid-filters li a.systems {
       color: #3db9ea; }
-      .nav-press-grid-filters li a.sistemas:hover:after, .nav-press-grid-filters li a.sistemas.active:after {
+      .nav-press-grid-filters li a.systems:hover:after, .nav-press-grid-filters li a.systems.active:after {
         background: #3db9ea; }
 
 .nav-press-items-mini-grid {
   width: 120px;
-  margin-top: 35px;
-  margin-top: 2.5rem;
+  margin-top: 45px;
+  margin-top: 3.21429rem;
   float: right;
   padding-right: 11px; }
   .nav-press-items-mini-grid:after {
@@ -6385,17 +6404,17 @@ html[xmlns] .slides {
       -webkit-box-shadow: inset 0px 0px 7px 0px white;
       -moz-box-shadow: inset 0px 0px 7px 0px white;
       box-shadow: inset 0px 0px 7px 0px white; }
-    .nav-press-items-mini-grid li.espacios a {
+    .nav-press-items-mini-grid li.spaces a {
       background: #d4de3e; }
-      .nav-press-items-mini-grid li.espacios a:hover, .nav-press-items-mini-grid li.espacios a.active {
+      .nav-press-items-mini-grid li.spaces a:hover, .nav-press-items-mini-grid li.spaces a.active {
         background: #e2e87b; }
-    .nav-press-items-mini-grid li.objetos a {
+    .nav-press-items-mini-grid li.objects a {
       background: #fcb748; }
-      .nav-press-items-mini-grid li.objetos a:hover, .nav-press-items-mini-grid li.objetos a.active {
+      .nav-press-items-mini-grid li.objects a:hover, .nav-press-items-mini-grid li.objects a.active {
         background: #fdd38e; }
-    .nav-press-items-mini-grid li.sistemas a {
+    .nav-press-items-mini-grid li.systems a {
       background: #3db9ea; }
-      .nav-press-items-mini-grid li.sistemas a:hover, .nav-press-items-mini-grid li.sistemas a.active {
+      .nav-press-items-mini-grid li.systems a:hover, .nav-press-items-mini-grid li.systems a.active {
         background: #7dd0f1; }
 
 #contacto {
@@ -6405,3 +6424,47 @@ html[xmlns] .slides {
     font-family: "Interstate Light" !important;
     font-weight: normal;
     font-style: normal; }
+
+#contacto {
+  padding-top: 91px; }
+
+#contacto label {
+  font-size: 12px;
+  font-family: "Interstate Light" !important;
+  font-weight: normal;
+  font-style: normal; }
+
+#homepage-container {
+  margin-top: 350px; }
+
+.homepage {
+  font-family: "Interstate Light" !important;
+  font-size: 20px;
+  color: #B5BFC9 !important; }
+
+#fieldformBuilderFieldName {
+  width: 300px !important; }
+
+#fieldformBuilderFieldEmail {
+  width: 300px !important; }
+
+#fieldformBuilderFieldComments {
+  width: 300px !important; }
+
+.formBuilderLabelRequired {
+  font-family: "Interstate Light" !important; }
+
+.formBuilderLabel {
+  font-family: "Interstate Light" !important; }
+
+.fieldformBuilderFieldName {
+  font-family: "Interstate Light" !important; }
+
+.fieldformBuilderFieldEmail {
+  font-family: "Interstate Light" !important; }
+
+.formBuilderSubmit {
+  font-family: "Interstate Light" !important; }
+
+.thumb-slide {
+  padding-left: 1px; }

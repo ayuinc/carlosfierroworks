@@ -12,44 +12,6 @@
     <meta charset="utf-8">
 
     <title></title>
-    <!-- Project SEO -->
-    <meta name="description" content="">
-    <meta name="keywords" content="" /> 
-    <meta name="author" content="Ayu Consulting S.A.C" />
-
-    <!-- Responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:title" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:url" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:creator" content="">
-    <meta name="twitter:image" content="">
-
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="img/favicon.ico">
-
-    <!-- Apple Mobile -->
-    <meta name="apple-mobile-web-app-title" content="">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-    <!-- Apple icons -->
-    <link rel="apple-touch-icon" sizes="156x156" href="">
-    <link rel="apple-touch-icon" sizes="128x128" href="">
-    <link rel="apple-touch-icon" sizes="76x76" href="">
-    <link rel="apple-touch-icon" href="">
 
     <!-- WebFonts -->
     <script type="text/javascript" src="js/app/vendor/lintel-font.js"></script>
@@ -62,6 +24,7 @@
   <body>
     <div class="container-fluid">
       <div class="row">
+        <!-- inicio sidebar -->
         <div class="col-sm-2 clearfix">
           <ul class="list-unstyled nav-main-menu">
             <li class="carlos-fierro">Carlos Fierro</li>
@@ -72,16 +35,17 @@
           </ul>
           <ul class="list-unstyled nav-project-grid-filters">
             <li><a href="#" class="* active" data-filter="*">Todos</a></li>
-            <li><a href="#" class="spaces" data-filter=".spaces">Espacios</a></li>
-            <li><a href="#" class="objects" data-filter=".objects">Objetos</a></li>
-            <li><a href="#" class="systems" data-filter=".systems">Systems</a></li>
+            <li><a href="#" class="espacios" data-filter=".espacios">Espacios</a></li>
+            <li><a href="#" class="objetos" data-filter=".objetos">Objetos</a></li>
+            <li><a href="#" class="sistemas" data-filter=".sistemas">Sistemas</a></li>
           </ul>
           <ul class="list-unstyled nav-project-items-mini-grid">
           </ul>
         </div>
+        <!-- fin sidebar -->
         <div class="col-sm-8">
           <ul class="list-unstyled projects-grid isotope-container">
-            <li class="isotope-item systems" data-minigrid="systems">
+            <li class="isotope-item sistemas" data-minigrid="sistemas">
               <a href="#">
                 <img src="assets/img/thumb-1.jpg">
                 <div class="overlay">
@@ -107,7 +71,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item objects" data-minigrid="objects">
+            <li class="isotope-item objetos" data-minigrid="objetos">
               <a href="#">
                 <img src="assets/img/thumb-3.jpg">
                 <div class="overlay">
@@ -120,7 +84,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item systems" data-minigrid="systems">
+            <li class="isotope-item sistemas" data-minigrid="sistemas">
               <a href="#">
                 <img src="assets/img/thumb-4.jpg">
                 <div class="overlay">
@@ -146,7 +110,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item objects" data-minigrid="objects">
+            <li class="isotope-item objetos" data-minigrid="objetos">
               <a href="#">
                 <img src="assets/img/thumb-6.jpg">
                 <div class="overlay">
@@ -159,7 +123,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item systems" data-minigrid="systems">
+            <li class="isotope-item sistemas" data-minigrid="sistemas">
               <a href="#">
                 <img src="assets/img/thumb-7.jpg">
                 <div class="overlay">
@@ -185,7 +149,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item objects" data-minigrid="objects">
+            <li class="isotope-item objetos" data-minigrid="objetos">
               <a href="#">
                 <img src="assets/img/thumb-9.jpg">
                 <div class="overlay">
@@ -198,7 +162,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item systems" data-minigrid="systems">
+            <li class="isotope-item sistemas" data-minigrid="sistemas">
               <a href="#">
                 <img src="assets/img/thumb-10.jpg">
                 <div class="overlay">
@@ -224,7 +188,7 @@
                 </div>
               </a>
             </li>
-            <li class="isotope-item objects" data-minigrid="objects">
+            <li class="isotope-item objetos" data-minigrid="objetos">
               <a href="#">
                 <img src="assets/img/thumb-12.jpg">
                 <div class="overlay">

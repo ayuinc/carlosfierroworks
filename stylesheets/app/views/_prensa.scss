@@ -66,29 +66,29 @@
 				}
 			}
 		}
-		&.sistemas {
+		&.systems {
 			a {
 				.overlay {
 					h4 {
-						color: $brand-sistemas;
+						color: $brand-systems;
 					}
 				}
 			}
 		}
-		&.espacios {
+		&.spaces {
 			a {
 				.overlay {
 					h4 {
-						color: $brand-espacios;
+						color: $brand-spaces;
 					}
 				}
 			}
 		}
-		&.objetos {
+		&.objects {
 			a {
 				.overlay {
 					h4 {
-						color: $brand-objetos;
+						color: $brand-objects;
 					}
 				}
 			}
@@ -137,9 +137,9 @@
 					float: right;
 				}
 			}
-			&.espacios,
-			&.objetos,
-			&.sistemas {
+			&.spaces,
+			&.objects,
+			&.systems {
 				&:after {
 					content: " ";
 					width: 7px;
@@ -149,32 +149,32 @@
 					float: right;
 				}
 			}
-			&.espacios {
+			&.spaces {
 				&:hover,
 				&.active {
 					&:after {
-						background: $brand-espacios;
+						background: $brand-spaces;
 					}
 				}
-				color: $brand-espacios;
+				color: $brand-spaces;
 			}
-			&.objetos {
+			&.objects {
 				&:hover,
 				&.active {
 					&:after {
-						background: $brand-objetos;
+						background: $brand-objects;
 					}
 				}
-				color: $brand-objetos;
+				color: $brand-objects;
 			}
-			&.sistemas {
+			&.systems {
 				&:hover,
 				&.active {
 					&:after {
-						background: $brand-sistemas;
+						background: $brand-systems;
 					}
 				}
-				color: $brand-sistemas;
+				color: $brand-systems;
 			}
 		}
 	}
@@ -182,8 +182,8 @@
 
 .nav-press-items-mini-grid {
 	width: 120px;
-	margin-top: 35px;
-	margin-top: rem(35);
+	margin-top: 45px;
+	margin-top: rem(45);
 	float: right;
 	padding-right: 11px;
 	@include clearfix;
@@ -194,34 +194,34 @@
 		a {
 			display: block;
 			height: 35px;
-			background: $brand-espacios;
+			background: $brand-spaces;
 			margin: 0;
 			@include box-shadow(inset 0px 0px 7px 0px white);
 		}
-		&.espacios {
+		&.spaces {
 			a {
-				background: $brand-espacios;
+				background: $brand-spaces;
 				&:hover,
 				&.active {
-					background: lighten($brand-espacios, 14%);
+					background: lighten($brand-spaces, 14%);
 				}
 			}
 		}
-		&.objetos {
+		&.objects {
 			a {
-				background: $brand-objetos;
+				background: $brand-objects;
 				&:hover,
 				&.active {
-					background: lighten($brand-objetos, 14%);
+					background: lighten($brand-objects, 14%);
 				}
 			}
 		}
-		&.sistemas {
+		&.systems {
 			a {
-				background: $brand-sistemas;
+				background: $brand-systems;
 				&:hover,
 				&.active {
-					background: lighten($brand-sistemas, 14%);
+					background: lighten($brand-systems, 14%);
 				}
 			}
 		}

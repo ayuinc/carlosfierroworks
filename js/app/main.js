@@ -1,4 +1,4 @@
-$(document).ready(function(){
+	$(document).ready(function(){
 	// INITIALIZE ISOTOPE
 	var $container = $(".isotope-container").imagesLoaded( function() {
 	  $container.isotope({
@@ -144,6 +144,17 @@ $(document).ready(function(){
 	    itemMargin: 0,
 	    asNavFor: '#slider'
 	  });
+
+	  $('#carousel2').flexslider({
+	    animation: "slide",
+	    controlNav: false,
+	    animationLoop: false,
+	    directionNav: false,
+	    slideshow: false,
+	    itemWidth: 15,
+	    itemMargin: 0,
+	    asNavFor: '#carousel'
+	  });
 	   
 	  $('#slider').flexslider({
 	    animation: "slide",
@@ -153,12 +164,6 @@ $(document).ready(function(){
 	    sync: "#carousel"
 	  });
 
-	  // PROJECT THUMBS COUNTER
-		var $carouselSlider = $('#carousel .slides li');
-		var $listItems = '';
-		for (var i = 0; i < $carouselSlider.length; i++) {
-			$('.thumbnail-counter').append('<li>' + (i+1) + '</li>');
-		}
 	});
 
 	// PROJECTS DESCRIPTION
